@@ -1,0 +1,26 @@
+[
+    {
+        "company" : "InyaLand",
+        "period" : "September 2020 - Present",
+        "position" : "Software & Data Analyst",
+        "url" : "https://www.inyaland.com/"
+    },
+    {
+        "company" : "Emutivo (Worcester Polytechnic Institute)",
+        "period" : "August 2019 - March 2020",
+        "position" : "Research Assistant",
+        "url" : "https://emutivo.wpi.edu/index.php/people/"
+    },
+    {
+        "company" : "Nexlabs",
+        "period" : "June 2019 - August 2019",
+        "position" : "Software Engineer Intern",
+        "url" : "https://www.nexlabs.co/"
+    },
+    {
+        "company" : "Bindez",
+        "period" : "May 2018 - August 2018",
+        "position" : "Software Engineer Intern",
+        "url" : "https://bindez.com/"
+    }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Portfolio site with Next.js",
+    "status": "ongoing",
+    "url": "http://myominthant.me",
+    "tags": ["Next.js", "React.js", "Tailwind CSS"],
+    "date": "",
+    "tasks": "To hone my skill on web development, I have decided to rebuild my portfolio site using Next and Tailwind. My previous site was built using only HTML and CSS. However, I would like to add more functionalities such as blogs and data visualizations and also to learn Frontend Technologies as I continue improving this Portfolio."
+  },
+  {
+    "name": "Mental Health Sensing Using Machine Learning",
+    "url": "https://digital.wpi.edu/concern/student_works/x059c994q",
+    "status": "completed",
+    "tags": ["Deep Learning", "Pytorch", "Python"],
+    "date": "April, 2020",
+    "tasks": "Using audio and text data from multiple sources, we evaluated the viability of using machine and deep learning to identify depression and anxiety. Machine learning methods using sub-clip boosting achieved an F1 score of 0.81 for depression and 0.83 for anxiety. Our convolutional neural networks and long-term short term memory models achieved F1 scores of 0.55 and 0.68 respectively for depression. As feature engineering, we used topological data analysis to create Betti curves in our machine learning pipeline. Furthermore, we developed a pipeline to generate text messages with deep learning models, for data augmentation purposes."
+  },
+  {
+    "name": "Bose Bob (Hack@WPI 2020 Winner)",
+    "url": "https://devpost.com/software/bose-bob",
+    "status": "completed",
+    "tags": ["Bose Frame AR", "Bose API/SDK", "Android"],
+    "date": "January, 2020",
+    "tasks": "Bose Bob is an Android mobile application built to work with Bose AR products. It is an instrument suited for music producers and music listeners. While wearing the product, move your head in one of four directions to play a sound. The app allows you to change the sounds played and calibrate your device."
+  },
+  {
+    "name": "Artificial Neural Network with MNIST dataset",
+    "status": "completed",
+    "url": "https://github.com/mmthant03/ArtificialNeuralNetwork",
+    "tags": ["Deep Learning", "MNIST", "Python"],
+    "date": "September, 2019",
+    "tasks": "We have built a Simple Neural Network using 1 input layer, 10 hidden layers and 1 output layer on mnist dataset. Mnist dataset that we used here are much smaller dataset than you can acquire from the database. We also implemented convolutional version."
+  },
+  {
+    "name": "Building Website for WICN Public Radio Station",
+    "status": "completed",
+    "url": "https://core.ac.uk/download/pdf/213002804.pdf",
+    "tags": ["CMS", "Web Technology"],
+    "date": "March, 2019",
+    "tasks": "WICN at 90.5 FM is a public radio station located in Worcester, Massachusetts. WICN required that it’s website be modified in order to promote its radio station and to attract a bigger audience. We evaluated different Content Management Systems in the market to ultimately make recommendations according to WICN issues and requirements."
+  }
+]

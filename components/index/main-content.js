@@ -4,6 +4,7 @@ import Tools from "./tools"
 import About from "./about"
 import Projects from "./projects"
 import WorkHistory from "./workhistory"
+import ContactForm from "./contactform"
 
 const MainContent = () => {
     return (
@@ -24,6 +25,8 @@ const MainContent = () => {
             <Projects />
 
             <WorkHistory />
+
+            <ContactForm />
         </div>
     );
 }

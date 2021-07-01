@@ -9,7 +9,7 @@ const SocialLinks = () => {
             <div className="pl-3">
                 <a
                     aria-label="Facebook"
-                    href="/"
+                    href="https://www.facebook.com/mmthant03/"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="inline-flex text-white bg-black w-12 h-12 justify-center items-center rounded-full -ml-3 hover:shadow-lg transition-shadow duration-150"
@@ -18,7 +18,7 @@ const SocialLinks = () => {
                 </a>
                 <a
                     aria-label="LinkedIn"
-                    href="/"
+                    href="https://www.linkedin.com/in/mmthant03/"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="inline-flex text-black bg-white w-12 h-12 justify-center items-center rounded-full -ml-3 hover:shadow-lg transition-shadow duration-150"
@@ -27,7 +27,7 @@ const SocialLinks = () => {
                 </a>
                 <a
                     aria-label="Github"
-                    href="/"
+                    href="https://github.com/mmthant03"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="inline-flex text-white bg-black w-12 h-12 justify-center items-center rounded-full -ml-3 hover:shadow-lg transition-shadow duration-150"

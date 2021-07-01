@@ -1,0 +1,43 @@
+.form_control {
+  @apply w-full px-4 py-3 font-semibold text-sm outline-none leading-normal;
+}
+
+.form_input {
+  @apply form_control bg-white transition-opacity duration-150;
+}
+
+.form_input:focus {
+  @apply opacity-75;
+}
+
+.input_range {
+  @apply appearance-none block w-full outline-none mt-1 mb-1 h-1 bg-gray-300;
+}
+
+.input_range:focus {
+  @apply outline-none;
+}
+
+.input_range::-webkit-slider-runnable-track {
+  @apply appearance-none w-full cursor-pointer outline-none;
+  height: 2px;
+}
+
+.input_range::-webkit-slider-thumb {
+  @apply appearance-none rounded-full w-4 h-4 bg-green-400 cursor-pointer outline-none;
+  /* autoprefixer: ignore next */
+  -webkit-transform: translateY(-6.5px);
+  -moz-transform: translateY(0);
+}
+
+.input_range::-moz-range-track {
+    @apply appearance-none w-full cursor-pointer outline-none;
+    height: 2px;
+  }
+  
+  .input_range::-moz-range-thumb {
+    @apply appearance-none rounded-full w-4 h-4 bg-green-400 cursor-pointer outline-none;
+    /* autoprefixer: ignore next */
+    -webkit-transform: translateY(-6.5px);
+    -moz-transform: translateY(0);
+  }

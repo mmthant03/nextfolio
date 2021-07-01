@@ -51,7 +51,7 @@ const Nav = () => {
                                 <Link href="/blogs">
                                     <a className="text-black text-medium hover:bg-green-700 hover:text-white px-3 py-2 rounded-xl text-sm font-mono font-semibold">Blogs</a>
                                 </Link>
-                                <Link href="/contact">
+                                <Link href="#contact" scroll={false}>
                                     <a className="text-black text-medium bg-green-400 hover:bg-green-700 hover:text-white px-3 py-2 rounded-xl text-sm font-mono font-semibold">Contact me!</a>
                                 </Link>
 
@@ -85,7 +85,7 @@ const Nav = () => {
 
                     <a href="#" className="text-black hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blogs</a>
 
-                    <a href="#" className="text-black hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                    <a href="#contact" className="text-black hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
                 </div>
             </div>
         </nav>

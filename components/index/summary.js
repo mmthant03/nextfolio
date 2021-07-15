@@ -6,7 +6,7 @@ const Summary = () => {
                     Company
                 </h5>
                 <h3 className="font-light text-2xl leading-tight">
-                    Perfecq
+                    InyaLand
                 </h3>
                 <div className="font-semibold text-xs uppercase pt-2">
                     <span className="inline-block w-2 h-2 rounded-full mr-1 bg-green-500"></span>

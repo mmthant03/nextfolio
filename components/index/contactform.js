@@ -1,14 +1,18 @@
 import Styles from './contactform.module.css'
 import { useRef, useState } from 'react'
+import { useForm } from '@formspree/react'
 
 const ContactForm = () => {
     const defaultBudget = 500000
     const minBudget = 300000
     const maxBudget = 1000000
+
     const [isInquiry, setInquiry] = useState(false)
     const [selectedBudget, setSelectedBudget] = useState(defaultBudget)
     const inquiryDetails = useRef(null)
     const { form_control, form_input, input_range } = Styles
+    const formSpreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID
+    const [state, handleSubmit] = useForm(formSpreeId)
 
     return (
         <div>
@@ -19,7 +23,7 @@ const ContactForm = () => {
                 Contact
             </h5>
 
-            <form className="flex flex-wrap" method="post">
+            <form onSubmit={handleSubmit} className="flex flex-wrap">
                 <div className="flex flex-wrap w-full">
                     <div className="w-full lg:w-1/3 py-px lg:px-px">
                         <input
@@ -137,9 +141,18 @@ const ContactForm = () => {
                             type="submit"
                             value="Send"
                         />
+                       
                     </div>
-                </div>
 
+                </div>
+                <div className="inline-block font-normal text-black my-4">
+                    {state.succeeded && state.submitting &&
+                        (<span>Your request is successfully sent!</span>)
+                    }
+                    {state.errors.message && (
+                        <span>Oops! your request cannot be proceeded at this moment. <br/>Please reach out to me at mmthant0311@gmail.com.</span>
+                    )}
+                </div>
 
 
 

@@ -4,7 +4,7 @@ const ProfileImage = () => {
     return (
         <div className="relative inline-block leading-none">
             <img
-                src="/assets/img/corgi.jpg"
+                src="/assets/img/myPhoto.jpg"
                 alt="Profile Image"
                 className="rounded-full relative z-10 w-48 h-48"
             />
